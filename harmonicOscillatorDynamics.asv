@@ -1,0 +1,10 @@
+function  sys  = harmonicOscillatorDynamics( t, yi, m )
+%HARMONICOSCILLATORDYNAMICS 
+x = yi(1);
+xdot = yi(2);
+k = springForce(x);
+%%To Be Completed by Student
+sys(1) = xdot;
+sys(2) = m/k
+end
+

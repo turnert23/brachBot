@@ -1,0 +1,8 @@
+function [ output_args ] = harmonicOscillator()
+%UNTITLED2 Summary of this function goes here
+%   Detailed explanation goes here
+m = 1; %kg
+
+
+end
+
